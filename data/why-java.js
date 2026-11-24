@@ -119,6 +119,7 @@ const overrides = {
     29: ["Strings don't default to 0, and the value is set anyway.", "It starts as \"red\" but is reassigned before printing.", null, "The shared variable was changed to \"green\" before printing."],
     30: [null, "The return type comes before the method name.", "Parameters are written type first, then name.", "That's assignment syntax, not a method declaration."],
     31: ["Valid: this is ordinary overloading.", "Also an error in real Java (duplicate signature), but C is the classic case the exam expects.", null, "Different parameter lists make this valid overloading."],
+    32: ["Backwards: the class name comes first, then the method.", null, "This works in practice, but it creates a needless object; static methods are called through the class.", "static is only used when declaring, not when calling."],
     34: ["Instance methods are non-static by definition.", "Instance methods need an object to be called on.", null, "Instance methods can take parameters."],
   },
   midterm: {
